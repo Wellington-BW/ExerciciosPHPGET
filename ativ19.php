@@ -1,6 +1,6 @@
 <?php
-$a = $_GET["a"];
-
-echo substr($a, -5)."<br>";
-//não feita
+$string = $_GET["string"];
+ 
+echo 'Digitado: '.$string.'<br>';
+echo implode( '<br>', str_split($string,5));
 ?>
