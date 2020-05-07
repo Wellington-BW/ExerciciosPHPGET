@@ -2,5 +2,10 @@
 $a = $_GET["a"];
 $b = $_GET["b"];
 
-// não feita
+for($x=$a;$x<=$b;$x++){
+    if ($x%2 == 0){
+        echo $x;
+        echo '<br>';
+    }
+}
 ?>
